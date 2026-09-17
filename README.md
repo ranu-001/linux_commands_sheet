@@ -459,60 +459,6 @@ apt install tree
 
 ---
 
-# 12. 🐚 Shell Scripting
-
-Shell scripts contain a series of Linux commands that can be executed together.
-
-Example script:
-
-```bash
-#!/bin/bash
-
-echo "Welcome to Shell Scripting"
-whoami
-pwd
-date
-```
-
-Run using `sh`:
-
-```bash
-sh sam.sh
-```
-
-Run using Bash:
-
-```bash
-bash sam.sh
-```
-
-Give execute permission:
-
-```bash
-chmod +x sam.sh
-```
-
-Execute directly:
-
-```bash
-./sam.sh
-```
-
-### Common commands used inside scripts
-
-```bash
-echo
-whoami
-pwd
-hostnamectl
-uptime
-ps
-uname -a
-date
-```
-
----
-
 # 13. 🖥️ System Information
 
 | Command       | Description                                    |
@@ -534,54 +480,6 @@ uname -a
 date
 free -h
 ```
-
----
-
-# 14. 🌐 Networking
-
-## nslookup
-
-Used to query DNS information for a domain.
-
-```bash
-nslookup flipkart.com
-```
-
-It can show the DNS server being used and the IP address associated with the domain.
-
----
-
-# 15. 🕘 Command History
-
-## history
-
-Displays previously executed commands.
-
-```bash
-history
-```
-
-This is useful for reviewing commands used during troubleshooting or administration.
-
----
-
-# 🚀 Linux Commands for DevOps
-
-These commands are especially useful when working with:
-
-* 🐧 Linux Administration
-* 🐳 Docker
-* ☸️ Kubernetes
-* 🔧 Jenkins
-* 🤖 Ansible
-* 🏗️ Terraform
-* ☁️ AWS
-* 🐚 Shell Scripting
-* 📊 Monitoring & Troubleshooting
-* 🔍 Log Analysis
-
----
-
 ## 🎯 Quick DevOps Reference
 
 ```text
